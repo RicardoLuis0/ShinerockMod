@@ -1,0 +1,10 @@
+item.ettroite_ingot.name=Ettroite Alloy
+item.ettroite_ingot_dust.name=Ettroite Alloy Dust
+item.ettroite_gem.name=Ettroite Gem
+item.ettroite_dust.name=Ettroite Gem Dust
+item.ettroite_sword.name=Ettroite Alloy Sword
+item.shinerock_dust.name=Shinerock Dust
+tile.shinerock_ore.name=Shinerock Ore
+tile.shinerock_block.name=Shinerock Block
+tile.ettroite_ore.name=Ettroite Ore
+itemGroup.shinerocktab=Shinerock Mod

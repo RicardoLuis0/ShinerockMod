@@ -1,0 +1,12 @@
+{
+	"type":"minecraft:crafting_shapeless",
+	"ingredients":[
+		{
+			"item":"shinerock:shinerock_block"
+		}
+	],
+	"result":{
+		"item":"shinerock:shinerock_dust",
+		"count":9
+	}
+}
