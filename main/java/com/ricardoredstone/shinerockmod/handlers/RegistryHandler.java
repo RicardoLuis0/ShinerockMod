@@ -1,8 +1,10 @@
 package com.ricardoredstone.shinerockmod.handlers;
 
 import com.ricardoredstone.shinerockmod.init.ItemInit;
+import com.ricardoredstone.shinerockmod.init.TileEntityInit;
 import com.ricardoredstone.shinerockmod.init.BlockInit;
 import com.ricardoredstone.shinerockmod.init.ToolInit;
+import com.ricardoredstone.shinerockmod.recipes.ModRecipes;
 import com.ricardoredstone.shinerockmod.init.ArmorInit;
 
 public class RegistryHandler {
@@ -17,5 +19,6 @@ public class RegistryHandler {
 		BlockInit.register();
 		ToolInit.register();
 		ArmorInit.register();
+		ModRecipes.init();
 	}
 }

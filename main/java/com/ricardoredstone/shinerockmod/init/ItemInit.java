@@ -1,21 +1,21 @@
 package com.ricardoredstone.shinerockmod.init;
 
-import com.ricardoredstone.shinerockmod.init.items.CustomItem;
+import com.ricardoredstone.shinerockmod.init.items.*;
 
 public class ItemInit {
-	public static CustomItem ettroite_ingot, ettroite_ingot_dust, ettroite_gem, ettroite_dust, shinerock_dust;
+	public static CustomItem ettroite_ingot, ettroite_gem, ettroite_dust, shinerock_dust,shinerock_shard;
 	public static void init() {
 		ettroite_ingot = new CustomItem("ettroite_ingot");
-		ettroite_ingot_dust = new CustomItem("ettroite_ingot_dust");
-		ettroite_gem = new CustomItem("ettroite_gem");
+		//ettroite_gem = new CustomItem("ettroite_gem");
 		ettroite_dust = new CustomItem("ettroite_dust");
 		shinerock_dust = new CustomItem("shinerock_dust");
+		shinerock_shard = new CustomItem("shinerock_shard");
 	}
 	public static void register() {
-		ettroite_ingot.register().registerOredictionary("ingotEttroiteAlloy");
-		ettroite_ingot_dust.register().registerOredictionary("dustEttroiteAlloy");
-		ettroite_gem.register().registerOredictionary("gemEttroite");
+		ettroite_ingot.register().registerOredictionary("ingotEttroite");
+		//ettroite_gem.register().registerOredictionary("gemEttroite");
 		ettroite_dust.register().registerOredictionary("dustEttroite");
 		shinerock_dust.register().registerOredictionary("dustShinerock");
+		shinerock_shard.register().registerOredictionary("shardShinerock");
 	}
 }

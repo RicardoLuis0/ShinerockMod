@@ -6,8 +6,11 @@ import com.ricardoredstone.shinerockmod.init.ItemInit;
 
 public class ModTab extends CreativeTabs{
 	public ModTab(String label) {
-		super("tutorialtab");
-		//this.setBackgroundImageName("tutorial.png");
+		super(label);
+	}
+	public ModTab(String label,String background) {
+		super(label);
+		this.setBackgroundImageName(background);
 	}
 
 	@Override

@@ -12,7 +12,7 @@ import com.ricardoredstone.shinerockmod.tabs.ModTab;
 
 @Mod(modid = Reference.MODID,name = Reference.NAME,version= Reference.VERSION)
 public class ShinerockMod {
-	public static final CreativeTabs shinerocktab = new ModTab("Shinerock Mod");
+	public static final CreativeTabs shinerocktab = new ModTab("shinerocktab1");
 	
 	@SidedProxy(clientSide = Reference.CLIENTPROXY, serverSide = Reference.COMMONPROXY)
 	public static CommonProxy proxy;

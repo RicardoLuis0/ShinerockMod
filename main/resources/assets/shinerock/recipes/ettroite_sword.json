@@ -1,0 +1,18 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"D",
+		"D",
+		"F"
+	],
+	"key":{
+		"D":{
+            "item":"shinerock:ettroite_ingot"
+		},"F":{
+            "item":"minecraft:stick"
+		  }
+	},
+	"result":{
+        "item":"shinerock:ettroite_sword"
+	}
+}

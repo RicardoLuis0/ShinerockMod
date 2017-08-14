@@ -52,6 +52,10 @@ public class CustomBlock extends Block {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(this), 0, new ModelResourceLocation(this.getRegistryName(),"inventory"));
 		return this;
 	}
+	public CustomBlock setLightValue(int value){
+        this.lightValue = value;
+        return this;
+    }
 	@Override
 	public Item getItemDropped(IBlockState state, Random random, int fortune) {
 	    if(drop!=null) {
@@ -79,5 +83,4 @@ public class CustomBlock extends Block {
 			return 1;
 		}
 	}
-
 }

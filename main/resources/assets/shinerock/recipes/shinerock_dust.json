@@ -2,7 +2,7 @@
 	"type":"minecraft:crafting_shapeless",
 	"ingredients":[
 		{
-			"item":"shinerock:shinerock_block"
+			"item":"shinerock:shinerock_lamp"
 		}
 	],
 	"result":{
